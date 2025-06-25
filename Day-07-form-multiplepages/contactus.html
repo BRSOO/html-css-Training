@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BOOKSTORE</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+	<a href="Aboutus.html">About Us</a><br>
+	<a href="index.html">Our Services</a><br>
+	<a href="ourteam.html">Our Teams</a><br>
+	<a href="contactus.html">Contact Us</a><br>
+	<h2>Contact Us</h2>
+	<form method="post">
+		<label for="username">Name: </label>
+		<input type="text" name="username" id="username" placeholder="Bibidh Raj Shrestha" required><br><br>
+		
+		<label for="email">Email: </label>
+		<input type="email" name="email" id="email" placeholder="brs@gmail.com" required><br><br>
+		
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password" required><br><br>
+		
+		<label for="y/n">Would you like to receive updates? </label><br><br>
+		<input type="radio" name="y/n" id="yes"  required>
+		<label for="yes">Yes</label>
+		<input type="radio" name="y/n" id="No">
+		<label for="yes">No</label><br><br>
+		
+		<label for="choices">What kind of books do you like?</label><br><br>
+		<input type="checkbox" name="choices" id="Sci-fi" required>
+		<label for="Sci-fi">Sci-fi</label>
+		<input type="checkbox" name="choices" id="Drama">
+		<label for="Drama">Drama</label>
+		<input type="checkbox" name="choices" id="Murder">
+		<label for="Murder">Murder</label>
+		<input type="checkbox" name="choices" id="Romance">
+		<label for="Romance">Romance</label>
+		<input type="checkbox" name="choices" id="Other">
+		<label for="Other">Other</label><br><br>
+		
+		<label for="place">From where are you contacting us?: </label>
+		<select name="place" id="place">
+			<option value="none">none</option>
+			<option value="Pokhara">Pokhara</option>
+			<option value="Kathmandu">Kathmandu</option>
+			<option value="Biratnagar">Biratnagar</option>
+			<option value="other">other</option>
+		</select>
+		<br><br>
+		
+		<label for="message">Message: </label><br>
+		<textarea name="message" id="message"></textarea><br><br>
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
