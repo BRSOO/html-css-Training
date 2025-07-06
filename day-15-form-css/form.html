@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day-15</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<h1 style="text-align:center;">Registration Form</h1>
+	<div class="form-body">
+		<form method="post">
+			<label for="username">Name </label><br>
+			<input type="text" class="input" name="username" id="username" placeholder="Enter your name" required><br><br>
+			
+			<label for="email">Email </label><br>
+			<input type="email" class="input" name="email" id="email" placeholder="Enter your email" required><br><br>
+			
+			<label for="age">Age</label><br>
+			<input type="number" class="input" name="age" id="age" placeholder="Enter your age" required><br><br>
+			
+			<label for="designation">Which option best describes you? </label><br>
+			<select class="input" name="designation" id="designation" style="padding:5px;">
+				<option value="Student">Student</option>
+				<option value="Teacher">Teacher</option>
+				<option value="Principal">Principal</option>
+				<option value="Alien">Alien</option>
+			</select>
+			<br><br>
+			
+			<label for="friend">Would you recommend to a friend? </label><br>
+			<input type="radio" name="friend" id="yes"  required>
+			<label for="yes">Yes</label><br>
+			<input type="radio" name="friend" id="No">
+			<label for="yes">No</label><br>
+			<input type="radio" name="friend" id="Maybe">
+			<label for="Maybe">Maybe</label><br><br>
+			
+			<label for="languages">Languages and Frameworks known (Check all that apply)</label><br>
+			<input type="checkbox" name="languages" id="C">
+			<label for="C">C</label><br>
+			<input type="checkbox" name="languages" id="C++">
+			<label for="C++">C++</label><br>
+			<input type="checkbox" name="languages" id="C#">
+			<label for="C#">C#</label><br>
+			<input type="checkbox" name="languages" id="Java">
+			<label for="Java">Java</label><br>
+			<input type="checkbox" name="languages" id="Python">
+			<label for="Python">Python</label><br>
+			<input type="checkbox" name="languages" id="JavaScript">
+			<label for="JavaScript">JavaScript</label><br>
+			<input type="checkbox" name="languages" id="React">
+			<label for="React">React</label><br>
+			<input type="checkbox" name="languages" id="Angular">
+			<label for="Angular">Angular</label><br>
+			<input type="checkbox" name="languages" id="Django">
+			<label for="Django">Django</label><br>
+			<input type="checkbox" name="languages" id="Spring">
+			<label for="Spring">Spring</label><br>
+			<br><br>
+			
+			<label for="comment">Any comments or suggestions</label><br>
+			<textarea name="comment" id="comment" placeholder="Enter your comment here" rows="2"  class="input"></textarea><br>
+			
+			<input class="input" type="submit" value="Submit" style="background-color:#00d900; width:548px; margin:30px 0px;">
+			
+		</form>
+	</div>
+</body>
+
+</html>
